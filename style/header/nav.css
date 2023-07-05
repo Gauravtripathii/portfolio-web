@@ -1,0 +1,29 @@
+.nav {
+  list-style-type: none;
+  color: var(--dark-grey);
+  /* font-size: 19px; */
+  font-size: 1.33rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  width: 50%;
+  font-family: var(--roboto-mono);
+}
+
+.nav span {
+  color: var(--cyan-lime);
+  margin-right: 0.7rem;
+}
+
+.nav > li {
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.nav > li:hover {
+  font-size: 2rem;
+}
+
+/* .nav a:active {
+  border-bottom: 1px solid var(--cyan-lime);  
+} */

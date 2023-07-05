@@ -1,5 +1,6 @@
 header > .icon {
-  font-size: 45px;
+  /* font-size: 45px; */
+  font-size: 3rem;
   font-family: var(--pt-sans);
   color: var(--cyan-lime);
 }
