@@ -23,6 +23,7 @@ body {
   scroll-behavior: smooth;
   background-color: var(--dark-blue);
   height: 150vh;
+  padding: 20px;
 }
 
 a {
