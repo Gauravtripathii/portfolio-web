@@ -1,0 +1,74 @@
+.socials {
+  position: absolute;
+  bottom: 0;
+  left: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.line {
+  height: 100px;
+  width: 0;
+  border: 1px solid var(--dark-grey);
+}
+
+.icon1 {
+  width: 40px;
+  height: 40px;
+  display: grid;
+  place-items: center;
+  margin-bottom: 5px;
+}
+
+.icon1 > .img {
+  width: 70%;
+  height: 70%;
+  transition: 0.3s;
+}
+
+.icon1 > .img:hover {
+  margin-bottom: 10px;
+}
+
+.icon1 > .github {
+  background: url(../media/github0.png);
+  background-size: contain;
+}
+
+.icon1 > .github:hover {
+  background: url(../media/github1.png);
+  background-size: contain;
+}
+
+.icon1 > .instagram {
+  background: url(../media/instagram0.png);
+  background-size: contain;
+}
+
+.icon1 > .instagram:hover {
+  background: url(../media/instagram1.png);
+  background-size: contain;
+}
+
+.icon1 > .twitter {
+  background: url(../media/twitter0.png);
+  background-size: contain;
+}
+
+.icon1 > .twitter:hover {
+  background: url(../media/twitter1.png);
+  background-size: contain;
+}
+
+.icon1 > .linkedin {
+  background: url(../media/linkedin0.png);
+  background-size: contain;
+  width: 60%;
+  height: 60%;
+}
+
+.icon1 > .linkedin:hover {
+  background: url(../media/linkedin1.png);
+  background-size: contain;
+}
