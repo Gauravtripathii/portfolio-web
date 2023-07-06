@@ -1,0 +1,17 @@
+.mail {
+  position: fixed;
+  bottom: 0;
+  right: 50px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.mail > span {
+  color: var(--dark-grey);
+  font-family: var(--roboto-mono);
+  font-size: 12px;
+  /* letter-spacing: 2px; */
+  writing-mode: vertical-rl;
+  margin-bottom: 30px;
+}
