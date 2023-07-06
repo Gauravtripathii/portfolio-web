@@ -1,0 +1,6 @@
+.container {
+  border: 1px solid red;
+  width: 80%;
+  height: inherit;
+  margin-left: 10%;
+}
