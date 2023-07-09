@@ -3,4 +3,7 @@ header > .icon {
   font-size: 3rem;
   font-family: var(--pt-sans);
   color: var(--cyan-lime);
+  transition: 0.5s;
+  display: grid;
+  place-items: center;
 }
