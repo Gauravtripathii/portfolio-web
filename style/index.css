@@ -17,16 +17,25 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 body {
-  scroll-behavior: smooth;
   background-color: var(--dark-blue);
-  height: 150vh;
+  height: 200vh;
   padding: 20px;
   position: relative;
 }
 
 a {
   all: unset;
+}
+
+::-webkit-scrollbar {
+  background-color: var(--dark-blue);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: var(--dark-grey);
+  border-radius: 25px;
 }
