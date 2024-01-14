@@ -8,8 +8,9 @@ module.exports = {
           dark: "#353353",
           darker: '#302F4E',
           light: '#6C6CE5',
-          grayish: '#454360'
+          grayish: '#454360',
         },
+        redish: '#F14C5F',
       },
       fontFamily: {
         'spartan': 'League Spartan',
