@@ -1,6 +1,6 @@
 function App() {
   return (
-    <div className="">
+    <div className="bg-purple-dark h-screen">
       <h1>hello, there!</h1>
     </div>
   );
