@@ -11,6 +11,10 @@ module.exports = {
           grayish: '#454360'
         },
       },
+      fontFamily: {
+        'spartan': 'League Spartan',
+        'baskerville': 'Libre Baskerville',
+      }
     },
   },
   plugins: [],
