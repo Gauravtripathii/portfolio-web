@@ -3,3 +3,16 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=League+Spartan:wght@900&family=Libre+Baskerville&display=swap");
+
+@layer {
+  .scroll-animate {
+    animation: scrolldown 2s infinite;
+  }
+  @keyframes scrolldown {
+    from {
+      transform: translateX(-50%) translateY(0);
+    } to {
+      transform: translateX(-50%) translateY(200%);
+    }
+  }
+}

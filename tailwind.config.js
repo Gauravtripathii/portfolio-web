@@ -6,16 +6,17 @@ module.exports = {
       colors: {
         purple: {
           dark: "#353353",
-          darker: '#302F4E',
-          light: '#6C6CE5',
-          grayish: '#454360',
+          darker: "#302F4E",
+          light: "#6C6CE5",
+          grayish: "#454360",
         },
-        redish: '#F14C5F',
+        redish: "#F14C5F",
+        yellowish: "#FFDE59",
       },
       fontFamily: {
-        'spartan': 'League Spartan',
-        'baskerville': 'Libre Baskerville',
-      }
+        spartan: "League Spartan",
+        baskerville: "Libre Baskerville",
+      },
     },
   },
   plugins: [],
