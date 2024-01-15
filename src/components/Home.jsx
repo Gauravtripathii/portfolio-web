@@ -6,7 +6,7 @@ import codepen from "../media/icons/codepen.png";
 
 function Home() {
   return (
-    <div className="overflow-y-scroll scrollbar-hidden xl:w-9/12 scroll-smooth">
+    <div className="overflow-y-scroll scrollbar-hidden xl:w-10/12 scroll-smooth">
         {/* HOME SECTION */}
       <div className="h-screen flex flex-col items-center gap-10 lg:gap-20 xl:justify-between xl:pb-10 xl:pt-20 2xl:pb-24 2xl:pt-28" id="home">
         {/* main */}
@@ -49,7 +49,6 @@ function Home() {
             </div>
         </a>
       </div>
-      <div className="h-screen bg-green-50"></div>
     </div>
   );
 }
