@@ -8,10 +8,10 @@ import Backend from "./projects/Backend";
 
 function Projects() {
   return (
-    <div id="projects" className="mt-5 flex flex-col gap-10 p-5">
+    <div id="projects" className="mt-5 flex flex-col gap-10 p-5 xl:p-10">
       <TitleIcon title="Projects" />
 
-      <nav className="font-spartan flex flex-wrap gap-3 text-white">
+      <nav className="font-spartan flex flex-wrap gap-3 text-white sm:text-xl md:text-2xl">
         <NavLink to="/">Everything</NavLink>
         <NavLink to="/frontend">Frontend</NavLink>
         <NavLink to="/backend">Backend</NavLink>

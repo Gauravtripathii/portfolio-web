@@ -4,7 +4,7 @@ function Project({ project }) {
   const [hover, setHover] = useState(false);
   return (
     <div
-      className="relative mb-5"
+      className="relative mb-5 md:mb-10 lg:m-0"
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
@@ -26,12 +26,12 @@ function Project({ project }) {
             : `hidden`
         }
       >
-        <div className="text-xl">{project.title}</div>
-        <div className="font-baskerville text-sm">{project.desc}</div>
+        <div className="text-xl sm:text-6xl lg:text-5xl">{project.title}</div>
+        <div className="font-baskerville text-sm sm:text-3xl lg:text-2xl">{project.desc}</div>
         <a
           href={project.link}
           target="_blank"
-          className="w-full bg-redish rounded-full text-center p-2"
+          className="w-full bg-redish rounded-full text-center p-2 sm:text-3xl sm:p-4 lg:text-2xl lg:p-2"
         >
           VISIT
         </a>
