@@ -82,8 +82,6 @@ function About() {
           </div>
         </div>
       </div>
-
-      <div className="h-screen"></div>
     </div>
   );
 }

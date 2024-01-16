@@ -15,4 +15,9 @@
       transform: translateX(-50%) translateY(200%);
     }
   }
+
+  .active {
+    color: #F14C5F !important;
+    border-bottom: 2px solid #F14C5F !important;
+  }
 }
