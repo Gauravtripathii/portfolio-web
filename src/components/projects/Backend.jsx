@@ -1,7 +1,18 @@
+import projects from "../../static";
+import Project from "./Project";
+
 function Backend() {
   return (
-    <div>
-      <div>Nothing to see here in the backend yet..</div>
+    <div className="flex flex-col">
+      {projects.map((project, index) => (
+        <div key={index}>
+          {project.category === "backend" ? (
+            <Project project={project} />
+          ) : (
+            ""
+          )}
+        </div>
+      ))}
     </div>
   );
 }

@@ -8,7 +8,7 @@ import Backend from "./projects/Backend";
 
 function Projects() {
   return (
-    <div id="projects" className="mt-5 flex flex-col p-5">
+    <div id="projects" className="mt-5 flex flex-col gap-10 p-5">
       <TitleIcon title="Projects" />
 
       <nav className="font-spartan flex flex-wrap gap-3 text-white">
@@ -18,7 +18,7 @@ function Projects() {
         <NavLink to="/fullstack">Fullstack</NavLink>
       </nav>
 
-      <div className="p-10">
+      <div className="px-10">
         <Routes>
           <Route path="/" element={<Everything />} />
           <Route path="/frontend" element={<Frontend />} />

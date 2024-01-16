@@ -1,11 +1,12 @@
 import projects from "../../static";
+import Project from "./Project";
 
 function Everything() {
   return (
-    <div>
+    <div className="flex flex-col">
       {projects.map((project, index) => (
         <div key={index}>
-            <img src={project.image} alt="did not load" />
+          <Project project={project} />
         </div>
       ))}
     </div>
