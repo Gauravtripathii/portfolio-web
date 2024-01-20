@@ -11,7 +11,7 @@ function Home() {
   return (
     <div className="overflow-y-scroll scrollbar-hidden xl:w-10/12 scroll-smooth">
         {/* HOME SECTION */}
-      <div className="h-fit flex flex-col items-center gap-10 lg:gap-20 xl:justify-between xl:pb-10 xl:pt-20 2xl:pb-24 2xl:pt-28" id="home">
+      <div className="h-[75svh] xl:h-[100svh] flex flex-col items-center justify-between gap-10 lg:gap-20 xl:justify-between xl:pb-10 xl:pt-20 2xl:pb-24 2xl:pt-28" id="home">
         {/* main */}
         <div className="w-full flex flex-col items-center p-5 gap-5 lg:gap-10 xl:w-3/4 xl:gap-5 2xl:gap-10">
           {/* profile img part */}
