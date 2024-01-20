@@ -31,6 +31,7 @@ function Project({ project }) {
         <a
           href={project.link}
           target="_blank"
+          rel="noreferrer"
           className="w-full bg-redish rounded-full text-center p-2 sm:text-3xl sm:p-4 lg:text-2xl lg:p-2"
         >
           VISIT
