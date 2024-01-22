@@ -26,8 +26,6 @@ function Projects() {
           <Route path="/fullstack" element={<Fullstack />} />
         </Routes>
       </div>
-
-      <div className="h-screen"></div>
     </div>
   );
 }

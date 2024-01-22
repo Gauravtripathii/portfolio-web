@@ -6,6 +6,7 @@ import codepen from "../media/icons/codepen.png";
 
 import About from "./About";
 import Projects from "./Projects";
+import Skills from "./Skills";
 
 function Home() {
   return (
@@ -55,6 +56,7 @@ function Home() {
 
       <About />
       <Projects />
+      <Skills />
     </div>
   );
 }
